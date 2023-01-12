@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto';
+    background-color: #001f45;
+}
+
+#pokedex {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+#pokedex .pokemon {
+    border: 3px solid #005ccc;
+    border-radius: 20%;
+    box-shadow: 0 0 10px 0 #005ccc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    
+    height: 192px;
+    aspect-ratio: 1/1;
+}
+
+#pokedex .pokemon .id {
+    color: #b3b3b3;
+    font-weight: bold;
+}
+
+#pokedex .pokemon .name {
+    color: #005ccc;
+    font-weight: bold;
+}
+
+#pokedex .pokemon .type * {
+    border: 2px solid white;
+    width: fit-content;
+    border-radius: 5px;
+    padding : 2px;
+    color: white;
+    display: inline-block;
+}
+
+/***************** TYPE COLOR *****************/
+
+.grass {background-color: #3e9709;}
+
+.fire {background-color: #f67f0b;}
+
+.water {background-color: #0a7abc;}
+
+.normal {background-color: #aca974;}
+
+.flying {background-color: #5eb9b2;}
+
+.bug {background-color: #bddd6e;}
+
+.poison {background-color: #a819d7;}
+
+.electric {background-color: #fffa24;}
+
+.ground {background-color: #e1d158;}
+
+.fighting {background-color: #e81319;}
+
+.psychic {background-color: #ec0e63;}
+
+.rock {background-color: #776a3e;}
+
+.ice {background-color: #1995a1;}
+
+.ghost {background-color: #8e55a4;}
+
+.dragon {background-color: #8a55fd;}
+
+.dark {background-color: #5f4632;}
+
+.steel {background-color: #7b8e8a;}
+
+.fairy {background-color: #ffa0c2;}
+
+/**********************************************/
